@@ -1,6 +1,6 @@
 # AutoAdvertising
 
-A plugin for automatic advertising on Minecraft servers (Spigot/Paper 1.21.8+).
+A plugin for automatic advertising on Minecraft servers (Spigot/Paper 1.16.5-1.21.8).
 
 ## Features
 - Scheduled automatic ad messages
@@ -9,7 +9,7 @@ A plugin for automatic advertising on Minecraft servers (Spigot/Paper 1.21.8+).
 - Easy configuration
 
 ## Installation
-1. Download the latest release from [Modrinth](https://modrinth.com/plugin/autoadvertising).
+1. Download the latest release from [Modrinth](https://modrinth.com/plugin/advertisingpo).
 2. Place the jar file into your `plugins` folder.
 3. Start or reload your server.
 
