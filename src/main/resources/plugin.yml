@@ -1,0 +1,35 @@
+name: AutoAdvertising
+main: sqrilizzAutoadvertising.AutoAdvertising
+version: 5.0
+author: sqrilizz
+website: https://modrinth.com/plugin/autoadvertising
+api-version: 1.21.8
+description: Plugin for automatic advertising on Minecraft servers (Spigot/Paper 1.21.8)
+
+commands:
+  autoad:
+    description: Manage automatic advertising
+    usage: /<command> [subcommand]
+    aliases: [autoadvertising, aa]
+
+permissions:
+  autoadvertising.admin:
+    description: Full control over the plugin
+    default: op
+    children:
+      autoadvertising.reload: true
+      autoadvertising.manage.ads: true
+      autoadvertising.manage.lines: true
+      autoadvertising.manage.interval: true
+  autoadvertising.reload:
+    description: Reload configuration
+    default: op
+  autoadvertising.manage.ads:
+    description: Create and delete ads
+    default: op
+  autoadvertising.manage.lines:
+    description: Add and remove lines
+    default: op
+  autoadvertising.manage.interval:
+    description: Change interval
+    default: op 

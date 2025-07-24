@@ -1,0 +1,34 @@
+name: AutoAdvertising
+main: sqrilizzAutoadvertising.AutoAdvertising
+version: 5.0
+author: sqrilizz
+description: Плагин для автоматической рекламы на сервере Minecraft (Spigot/Paper 1.21.8)
+api-version: 1.21.8
+
+commands:
+  autoad:
+    description: Управление автоматической рекламой
+    usage: /<command> [subcommand]
+    aliases: [autoadvertising, aa]
+
+permissions:
+  autoadvertising.admin:
+    description: Полный контроль над плагином
+    default: op
+    children:
+      autoadvertising.reload: true
+      autoadvertising.manage.ads: true
+      autoadvertising.manage.lines: true
+      autoadvertising.manage.interval: true
+  autoadvertising.reload:
+    description: Перезагрузка конфигурации
+    default: op
+  autoadvertising.manage.ads:
+    description: Создание и удаление объявлений
+    default: op
+  autoadvertising.manage.lines:
+    description: Добавление и удаление строк
+    default: op
+  autoadvertising.manage.interval:
+    description: Изменение интервала
+    default: op 
