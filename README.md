@@ -42,4 +42,4 @@ ads: {}
 MIT
 
 ---
-[Modrinth Project Page](https://modrinth.com/plugin/autoadvertising) 
+[Modrinth Project Page](https://modrinth.com/plugin/autoadvertisingPO) 
