@@ -38,8 +38,5 @@ ads: {}
 - `autoadvertising.manage.lines` — Manage lines
 - `autoadvertising.manage.interval` — Change interval
 
-## License
-MIT
-
 ---
 [Modrinth Project Page](https://modrinth.com/plugin/advertisingpo) 
