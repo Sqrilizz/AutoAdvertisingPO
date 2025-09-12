@@ -39,4 +39,4 @@ ads: {}
 - `autoadvertising.manage.interval` — Change interval
 
 ---
-[Modrinth Project Page](https://modrinth.com/plugin/advertisingpo) 
+[Modrinth Project Page](https://modrinth.com/plugin/advertisingpo) .
